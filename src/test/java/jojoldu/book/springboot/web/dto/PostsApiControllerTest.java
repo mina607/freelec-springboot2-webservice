@@ -18,8 +18,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 // 도메인 관련 import (누락된 것들 추가)
-import com.jojoldu.book.springboot.domain.posts.Posts;
-import com.jojoldu.book.springboot.domain.posts.PostsRepository;
+import com.jojoldu.book.springboot.domain.Posts;
+import com.jojoldu.book.springboot.domain.PostsRepository;
 import com.jojoldu.book.springboot.web.dto.PostsSaveRequestDto;
 import com.jojoldu.book.springboot.web.dto.PostsUpdateRequestDto;
 
